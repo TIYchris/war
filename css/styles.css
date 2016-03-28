@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+  font-family: Raleway, sans-serif; }
+
+* {
+  box-sizing: inherit; }
+  *:before {
+    box-sizing: inherit; }
+  *:after {
+    box-sizing: inherit; }
+    
+body{
+	background: url("../image/World-War-3.jpg");
+    background-size: 1920px 960px;
+    background-repeat: no-repeat;
+}
+
+.hiddenAudio {
+	display:none;
+}
+
+.container{
+	height:300px;
+	width:800px;
+	margin: 0 auto;
+	background-color: rgba(219,215,201,0.5);
+	margin-top:155px;
+	border-radius: 5px;
+}
+.warContainer{
+	background-color: rgba(138,7,7,0.5);
+}
+
+.header{
+	width:800px;
+	height:150px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top:100px;
+}
+.war{
+	font-size: 120px;
+	font-weight: bolder;
+	margin-top:0px;
+	position: relative;
+	color: #8A0707;
+
+}
+.this{
+	font-size: 50px;
+	top: 60px;
+	position: relative;
+	color: #8A0707;
+}
+.button {
+	height:45px;
+	width:120px;
+	background-color: #8A0707;
+	border:1px solid black;
+	border-radius: 5px;
+	position: relative;
+	top:-5px;
+	left:340px;
+	color:white;
+	font-size: 15px;
+}
+.warButton {
+	background-color: black;
+	border:1px solid #404040;
+}
+
+.message {
+	height:170px;
+	width:310px;
+	background-color: black;
+	margin-left: 245px;
+	margin-top: -245px;
+	position: relative;
+	color:white;
+	padding:65px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.card1{
+	position: relative;
+	font-size: 20px;
+	left:105px;
+	top:35px;
+}
+.card2{
+	position: relative;
+	font-size: 20px;
+	left:670px;
+	top:-8px;
+}
+.player1{
+	position: relative;
+	font-size: 30px;
+	left:65px;
+	top:35px;
+}
+.player2{
+	position: relative;
+	font-size: 30px;
+	left:635px;
+	top:0px;
+}
+.left{
+	position: relative;
+	font-size: 15px;
+	left:50px;
+	top:75px;
+}
+.dleft{
+	position: relative;
+	font-size: 15px;
+	left:50px;
+	top:165px;}
+.right{
+	position: relative;
+	font-size: 15px;
+	left:625px;
+	top:43px;
+}
+.dright{
+	position: relative;
+	font-size: 15px;
+	left:625px;
+	top:133px;}
+.message1{
+	height:170px;
+	width:310px;
+	background-color: black;
+	margin-left: 245px;
+	margin-top: -160px;
+	position: relative;
+	color:white;
+	padding:65px;
+	text-align: center;
+	border-radius: 5px;
+}
+#startButton{
+	top:85px;
+}

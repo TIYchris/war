@@ -1,0 +1,30 @@
+{
+  "name": "war",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "file-loader": "^0.8.5",
+    "hogan.js": "^3.0.2",
+    "json-loader": "^0.5.4",
+    "loader": "^2.1.0",
+    "mustache-loader": "^0.3.1",
+    "style-loader": "^0.13.0",
+    "url": "^0.11.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "font-awesome": "^4.5.0",
+    "font-awesome-webpack": "0.0.4",
+    "jquery": "^2.2.2",
+    "mustache": "^2.2.1"
+  }
+}
