@@ -4,27 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp serve",
+    "postinstall": "gulp build"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
+    "css-loader": "^0.23.1",
     "file-loader": "^0.8.5",
+    "font-awesome": "^4.5.0",
+    "font-awesome-webpack": "0.0.4",
+    "gulp": "^3.9.1",
     "hogan.js": "^3.0.2",
+    "jquery": "^2.2.4",
     "json-loader": "^0.5.4",
+    "json-server": "^0.8.16",
     "loader": "^2.1.0",
+    "lodash": "^4.13.1",
+    "mustache": "^2.2.1",
     "mustache-loader": "^0.3.1",
     "style-loader": "^0.13.0",
     "url": "^0.11.0",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.14",
-    "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "css-loader": "^0.23.1",
-    "font-awesome": "^4.5.0",
-    "font-awesome-webpack": "0.0.4",
-    "jquery": "^2.2.2",
-    "mustache": "^2.2.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0"
   }
 }

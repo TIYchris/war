@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>War</title>
+</head>
+
+<body>
+    <div class="header">
+        <p class="this">This is</p>
+        <p class="war">WAR</p>
+    </div>
+
+    <div id='container'>
+
+    </div>
+
+    <script id="start" type="text">
+    	<div class="container startContainer">
+    		<div class="player1">Player 1</div>
+    		<div class="player2">Player 2</div>
+        	<button class="button" id="startButton">Start Game</button>
+        </div>
+    </script>
+
+    <script id="playing" type="text">
+    	<div class="container playingContainer">
+    		<div class="player1">Player 1</div>
+    		<div class="player2">Player 2</div>
+	        <p class="card1">{{card1}}</p>
+	        <p class="card2">{{card2}}</p>
+	        <p class="left">{{player1.cards.length}} cards remaining</p>
+	        <p class="right">{{player2.cards.length}} cards remaining</p>
+	        <button class="button" id="nextButton">Next Card</button>
+	        <div class="message">
+	            <div>{{whoWon}}</div>
+	            <div>{{winner.name}} won {{cardsWon}} cards</div>
+	        </div>
+        </div>
+    </script>
+
+    <script id="war" type="text">
+    	<div class="container warContainer">
+    		<div class="player1">Player 1</div>
+    		<div class="player2">Player 2</div>
+    		<audio class="hiddenAudio" controls autoplay="true">
+			  <source src="http://soundbible.com/grab.php?id=1986&type=mp3" type="audio/mpeg">
+			  Your browser does not support the audio tag.
+			</audio>
+	        <p class="card1">{{card1}}</p>
+	        <p class="card2">{{card2}}</p>
+	        <p class="left">{{player1.cards.length}} cards remaining</p>
+	        <p class="right">{{player2.cards.length}} cards remaining</p>
+	        <button class="button warButton" id="warButton">Go To War!</button>
+	        <div class="message">
+	            {{whoWon}}
+	        </div>
+        </div>
+    </script>
+    <script id="done" type="text">
+    	<div class="container doneContainer">
+    		<div class="player1">Player 1</div>
+    		<div class="player2">Player 2</div>
+	        <p class="dleft">{{player1.cards.length}} cards remaining</p>
+	        <p class="dright">{{player2.cards.length}} cards remaining</p>
+	        <button class="button" id="startButton">New Game</button>
+	        <div class="message1">
+	            <div>{{winner.name}} won the game!</div>
+	        </div>
+        </div>
+    </script>
+
+    <script src="/bundle.js"></script>
+</body>
+
+</html>
